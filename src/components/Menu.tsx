@@ -14,6 +14,25 @@ const menuItems = [
         href: "/",
         visible: ["admin", "teacher", "student", "parent"],
       },
+      
+      {
+        icon: "/teacher.png",
+        label: "Question",
+        visible: ["admin"],
+        subItems: [
+          {
+            label: "New Question",
+            href: "/question/new",
+            visible: ["admin"],
+          },
+          {
+            label: "All Question",
+            href: "/question/all",
+            visible: ["admin"],
+          },
+        ],
+      },
+
       {
         icon: "/teacher.png",
         label: "Customer",
@@ -31,6 +50,82 @@ const menuItems = [
           },
         ],
       },
+
+      
+      {
+        icon: "/teacher.png",
+        label: "Sales",
+        visible: ["admin"],
+        subItems: [
+          {
+            label: "New Sales",
+            href: "/sales/new",
+            visible: ["admin"],
+          },
+          {
+            label: "All Question",
+            href: "/sales/all",
+            visible: ["admin"],
+          },
+        ],
+      },
+
+      
+      {
+        icon: "/teacher.png",
+        label: "Purchase",
+        visible: ["admin"],
+        subItems: [
+          {
+            label: "New Purchase",
+            href: "/purchase/new",
+            visible: ["admin"],
+          },
+          {
+            label: "All Purchase",
+            href: "/purchase/all",
+            visible: ["admin"],
+          },
+        ],
+      },
+
+      {
+        icon: "/teacher.png",
+        label: "Product",
+        visible: ["admin"],
+        subItems: [
+          {
+            label: "New Product",
+            href: "/product/new",
+            visible: ["admin"],
+          },
+          {
+            label: "All Product",
+            href: "/product/all",
+            visible: ["admin"],
+          },
+        ],
+      },
+
+
+      {
+        icon: "/teacher.png",
+        label: "Expense",
+        visible: ["admin"],
+        subItems: [
+          {
+            label: "New Expense",
+            href: "/expense/new",
+            visible: ["admin"],
+          },
+          {
+            label: "All Expense",
+            href: "/expense/all",
+            visible: ["admin"],
+          },
+        ],
+      },
+
 
 
       {
